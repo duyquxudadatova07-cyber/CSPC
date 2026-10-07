@@ -30,3 +30,8 @@ conda activate cspc
 
 * I learned how to use Git, GitHub, Conda, pytest, and NumPy.
 * The NumPy version was faster than the pure-Python loop.
+**Reproducibility test:**
+- The repository was cloned into a fresh test directory.
+- The environment was recreated successfully from environment.yml.
+- All 3 tests passed with no changes to the code.
+- Result: reproducible on the test environment.
