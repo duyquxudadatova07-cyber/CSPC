@@ -20,9 +20,9 @@ conda activate cspc
 
 **Speed comparison (loop vs NumPy):**
 
-* loop : 1.6662 s
+* loop : 1.6616 s
 * numpy : 0.0002 s
-* speed-up: 7055.01 x faster
+* speed-up: 7746.92 x faster
 
 **Tests:** all passing? yes
 
