@@ -35,3 +35,31 @@ conda activate cspc
 - The environment was recreated successfully from environment.yml.
 - All 3 tests passed with no changes to the code.
 - Result: reproducible on the test environment.
+## PW2 — Lab A: Motion from Tracking Data
+
+### Results
+
+Mean acceleration: -8.57 m/s²
+
+Standard deviation: 28.71 m/s²
+
+Maximum position difference: 0.78 m
+
+### Noise Observation
+
+Acceleration is noisier than position because
+differentiation amplifies measurement noise.
+Since acceleration is calculated using two
+derivatives, the noise becomes much larger.
+
+### Integration
+
+I integrated acceleration to recover velocity,
+then integrated velocity to recover position.
+
+The maximum difference was 0.78 metres,
+showing that integration can recover position
+with a relatively small error.
+
+
+
