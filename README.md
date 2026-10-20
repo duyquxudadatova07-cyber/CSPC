@@ -61,5 +61,42 @@ The maximum difference was 0.78 metres,
 showing that integration can recover position
 with a relatively small error.
 
+## PW2 — Lab B: Optimization in Chemistry
 
+### Part 2 — Optimization Methods
+
+We compared three optimization methods:
+Gradient Descent, Newton's Method, and SLSQP.
+
+For the simple function, all three methods found x = 3.
+
+For the harder function, the results depended on the
+starting point and the optimization method.
+
+### Part 3 — Reaction Rate
+
+We used SLSQP to estimate the reaction rate constant.
+
+Fitted k = 0.26176
+
+### Part 4 — Chemical Equilibrium
+
+Newton Method: x = 0.66385
+SLSQP Method: x = 0.66385
+
+H2 = 0.33615 mol
+I2 = 0.33615 mol
+HI = 1.32770 mol
+
+### Part 5 — Titration
+
+We used np.gradient() and np.argmax() to find
+the equivalence point.
+
+Equivalence point: approximately 50 mL.
+
+### Conclusion
+
+We learned how optimization methods can be used
+to solve different chemistry problems.
 
